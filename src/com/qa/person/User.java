@@ -4,8 +4,20 @@ abstract class User {
 	private int id;
 	private String name;
 	private int age;
-	private String job;
+	private String gender;
+	private String maritalStatus;
 	
+	//constructors
+	public User() {
+		
+	}
+	
+	public User(int id, String name, int age) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+				
+	}
 	// getters and setters
 	public int getId() {
 		return id;
@@ -26,12 +38,12 @@ abstract class User {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public String getJob() {
-		return job;
-	}
-	public void setJob(String job) {
-		this.job = job;
-	}
+//	public String getJob() {
+//		return job;
+//	}
+//	public void setJob(String job) {
+//		this.job = job;
+//	}
 	
 	
 

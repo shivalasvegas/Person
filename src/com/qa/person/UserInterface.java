@@ -12,7 +12,7 @@ public class UserInterface {
 	public void addUser(User user) {
 		userArray.add(user);
 		counter ++;
-		//user.setId(counter);
+		user.setId(counter);
 	}
 	
 public void removeUser(int userId) {

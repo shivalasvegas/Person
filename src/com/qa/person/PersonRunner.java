@@ -6,7 +6,8 @@ public class PersonRunner {
 	
 		UserInterface frank = new UserInterface();
 		
-		frank.addUser(new Customer());;
+		frank.addUser(new Customer());
+		
 		frank.addUser(new Staff ());
 				
 
