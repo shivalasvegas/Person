@@ -38,6 +38,13 @@ abstract class User {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	public int getGender() {
+		return gender;
+	}
+	public void setAge(int gender) {
+		this.gender = gender;
+	}
 //	public String getJob() {
 //		return job;
 //	}
