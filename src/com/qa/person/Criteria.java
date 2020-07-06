@@ -1,5 +1,8 @@
 package com.qa.person;
 
-public interface Criteria {
+import java.util.List;
 
+public interface Criteria {
+	
+   public List<User> meetCriteria(List<User> users);
 }

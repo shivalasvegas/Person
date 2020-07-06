@@ -39,12 +39,22 @@ abstract class User {
 		this.age = age;
 	}
 	
-	public int getGender() {
+	public String getGender() {
 		return gender;
 	}
-	public void setAge(int gender) {
+	public void setGender(String gender) {
 		this.gender = gender;
 	}
+	
+	
+	public String getMStatus() {
+		return maritalStatus;
+	}
+	public void setMStatus(String maritalStatus) {
+		this.maritalStatus = maritalStatus;
+	}
+	
+	
 //	public String getJob() {
 //		return job;
 //	}
