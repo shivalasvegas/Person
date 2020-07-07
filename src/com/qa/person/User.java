@@ -18,6 +18,13 @@ abstract class User {
 		this.age = age;
 				
 	}
+	
+	public User(int id, String name, String gender) {
+		this.id = id;
+		this.name = name;
+		this.gender = gender;
+				
+	}
 	// getters and setters
 	public int getId() {
 		return id;

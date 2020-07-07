@@ -15,7 +15,7 @@ public class UserInterface {
 		user.setId(counter);
 	}
 	
-public void removeUser(int userId) {
+	public void removeUser(int userId) {
 		
 		for(User user : userArray) {
 
@@ -28,6 +28,15 @@ public void removeUser(int userId) {
 	
 		}	
 	}
+	
+	
+	
+		public void printUsers() {
+		for(User user : userArray) {
+			System.out.println(user);
+		}
+	}
+	
 	
 
 }

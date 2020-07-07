@@ -21,5 +21,16 @@ public class Customer extends User {
 		this.isEmployed = isEmployed;
 	}
 	
+	public Customer(int id, String name, String gender) {
+		super(id, name, gender);
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [getName()=" + getName() + ", getGender()=" + getGender() + "]";
+	}
+	
+	
 	
 }

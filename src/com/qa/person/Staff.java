@@ -19,4 +19,11 @@ public class Staff extends User {
 		this.role = role;
 	}
 
+	@Override
+	public String toString() {
+		return "Staff [getName()=" + getName() + ", getGender()=" + getGender() + "]";
+	}
+
+	
+	
 }

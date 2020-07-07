@@ -4,5 +4,7 @@ import java.util.List;
 
 public interface Criteria {
 	
-   public List<User> meetCriteria(List<User> users);
+
+	public List<User> meetCriteria(List<User> users);
+	//public List<User> meetCriteria(UserInterface );
 }
